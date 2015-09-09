@@ -1,0 +1,14 @@
+<?php
+    $item = filter_input(INPUT_GET, 'item', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    if (!empty($item)) {
+?>
+
+    <script>
+        $(document).ready(function() {
+            $('.gallery__item a[href="?item=<?php echo $item; ?>"]').click();
+        });
+    </script>
+        
+<?php
+    }
+?>
