@@ -13,6 +13,9 @@
     })(window.location.search.substr(1).split('&'))
 })(jQuery);
 
+// Actually click the item
 $(document).ready(function() {
-    $('.gallery__item a[href="?item=' + $.QueryString['item'] + '"]').parent().click();
+    if ($.QueryString['item']) {
+        $('.gallery__item a[href="?item=' + $.QueryString['item'] + '"]').click();
+    }
 });
