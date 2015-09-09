@@ -1,4 +1,4 @@
-## [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/) meets HTML5 History API (via [History.js](https://github.com/browserstate/history.js))
+## [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/) + HTML5 History API (demo)
 
 http://eugenedae.github.io/Magnific-Popup-History-API-Demo/
 
